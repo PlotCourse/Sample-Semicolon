@@ -9,7 +9,6 @@ public static class Solution
     public static SolutionBuilder GetSolutionBuilder()
     {
         var slnBuilder = new SolutionBuilder("Semicolon")
-            .WithToken("SAMPLES_ONLY_TOKEN") // this free-use token works with small numbers of structures
             .WithOptions(o => {
                 o.AppHostDirectory = "Semicolon.AppHost";
                 o.AppHostProjectFileName = "Semicolon.AppHost.csproj";
