@@ -10,7 +10,9 @@
     <FrameworkReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="PlotStax.Gen.Client" Version="2.0.0" />
+    <PackageReference Include="MessagePack" Version="2.5.307" />
+    <PackageReference Include="PlotStax.Gen.Client" Version="2.0.1" />
+    <PackageReference Include="System.Security.Cryptography.Pkcs" Version="10.0.13" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Semicolon.AppHost\Semicolon.AppHost.csproj" />

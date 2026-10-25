@@ -9,6 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MessagePack" Version="2.5.307" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Semicolon.Main\Semicolon.Main.csproj" />
   </ItemGroup>
 
